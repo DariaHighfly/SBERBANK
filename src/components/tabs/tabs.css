@@ -1,0 +1,28 @@
+.tabs {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-left: 5%;
+    background: #ccffcf;
+    min-height: 3em;
+}
+
+.pic {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.tab {
+    background: #046a38;
+    padding: 1em;
+    font-size: 0.9em;
+    max-width: 10em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}

@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.filterPic {
+    background: rgb(216, 253, 225);
+    width: 2em;
+    height: 2em;
+    padding: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+

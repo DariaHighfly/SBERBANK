@@ -1,0 +1,14 @@
+@font-face {
+    font-family: FedraSerifPro;
+    src: url("./fonts/FedraSerifPro.otf") format("opentype");
+}
+
+.title {
+    font-family: FedraSerifPro sans-serif;
+    font-size: 2em;
+    padding: 0;
+}
+
+.pic {
+    width: 30%;
+}
