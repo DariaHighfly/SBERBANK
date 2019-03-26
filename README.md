@@ -1,29 +1,34 @@
-# hello-world
+# SBERBANK
 
-## Project setup
+Задание для стажировки в SBERSEASONS.
+
+Проект написан с использованием фреймворка Vue.js и Vuex.
+
+Задание:
+
+Необходимо реализовать фильтры с множетсвенным выбором, кнопки, которые будут отображать выбранные значения (отображение внутри кнопок ограниченно, при переполнении отображется многоточие после последнего видимого слова + при наведении на кнопку виден весь список выбранных фильтров) и при клике на них кнопка удаляется, а также удаляются соответсвующие кнопке значения в фильтрах.
+
+В проекте фильтры реализованны с помощью выпадающих списков, а вкладки с выбранными фильтрами - с помощью кнопок. Все компоненты, использующие выбранные пользователем фильтры, связаны с хранилищем, реализованном в store с помощью Vuex. Это гарантирует удобно использование списка фильтров из любого компонента. 
+
+Рекомендованно запускать из IDE, чтобы предотвратить неправильную работу программы в связи с отсутвием установлленных фреймворков и пакетов.
+ 
+## Установка из IDE (необходимо наличие установленных Node.js, Vue, Vuex)
+
+### Установка зависимостей и пакетов:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Компиляция и запуск проекта на локальном сервере:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Скриншоты
 
-### Run your tests
-```
-npm run test
-```
+![Image alt](https://github.com/DariaHighfly/SBERBANK/raw/master/image01.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
+![Image alt](https://github.com/DariaHighfly/SBERBANK/raw/master/image02.png)
+![Image alt](https://github.com/DariaHighfly/SBERBANK/raw/master/image03.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Image alt](https://github.com/DariaHighfly/SBERBANK/raw/master/image04.png)
